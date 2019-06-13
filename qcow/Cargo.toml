@@ -1,0 +1,14 @@
+[package]
+name = "qcow"
+version = "0.1.0"
+authors = ["The Chromium OS Authors"]
+edition = "2018"
+
+[lib]
+path = "src/qcow.rs"
+
+[dependencies]
+byteorder = "*"
+libc = "*"
+remain = "*"
+sys_util = { path = "../sys_util" }
